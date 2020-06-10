@@ -18,8 +18,8 @@
         'polyfill-CustomEvents': function(){ return typeof window.CustomEvent === "function" },
         'polyfill-matchMedia': function(){ return typeof window.matchMedia === "function" },
         'polyfill-ObjectEntries': function(){ return !! Object.entries; },
-        'polyfill-Promise': function(){ return true; },
-        'polyfill-requestAnimationFrame': function(){ return true; },
+        'polyfill-Promise': function(){ return 'Promise' in window; },
+        'polyfill-requestAnimationFrame': function(){ return !! window.requestAnimationFrame; },
     };
 
 
