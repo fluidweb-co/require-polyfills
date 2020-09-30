@@ -1,6 +1,6 @@
 {
   "name": "require-polyfills",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Collection of polyfils that load automatically using require-bundle-js by detecting what is missing in the browser.",
   "keywords": [
     "require-bundle",
